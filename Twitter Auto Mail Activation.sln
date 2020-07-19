@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter Auto Mail Activation", "Twitter Auto Mail Activation\Twitter Auto Mail Activation.csproj", "{36B17688-48AB-439F-B390-E98D3D45A351}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterAutoMailActivator.Test", "TwitterAutoMailActivator.Test\TwitterAutoMailActivator.Test.csproj", "{C40F6265-F541-4C10-A665-05CFE3F690A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterAutoMailActivator", "TwitterAutoMailActivator\TwitterAutoMailActivator.csproj", "{B8126397-BAF7-4757-BC8F-ABF2127B769C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36B17688-48AB-439F-B390-E98D3D45A351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36B17688-48AB-439F-B390-E98D3D45A351}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36B17688-48AB-439F-B390-E98D3D45A351}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36B17688-48AB-439F-B390-E98D3D45A351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C40F6265-F541-4C10-A665-05CFE3F690A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40F6265-F541-4C10-A665-05CFE3F690A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40F6265-F541-4C10-A665-05CFE3F690A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40F6265-F541-4C10-A665-05CFE3F690A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8126397-BAF7-4757-BC8F-ABF2127B769C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8126397-BAF7-4757-BC8F-ABF2127B769C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8126397-BAF7-4757-BC8F-ABF2127B769C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8126397-BAF7-4757-BC8F-ABF2127B769C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
